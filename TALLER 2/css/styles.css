@@ -1,0 +1,46 @@
+.img-logo{
+    height: 40px;
+}
+.img1{
+    
+    height: 10px;
+}
+main{
+    background-color: #bfebe5;
+}
+footer{
+    background-color: #000053;
+    color: #ffffff;
+    font-weight: bold;
+}
+h1{
+    text-align: left;
+    color: #5856cc;
+}
+h2 {
+    text-align: justify;
+    color: rgb(26, 13, 13);
+}
+h3{
+    color: rgb(24, 16, 4);
+}
+h4{
+    
+    color: rgb(15, 11, 15);
+}
+h5{
+    
+    color: #0b191f;
+}
+p{
+    text-align: justify;
+}
+.objetivos{
+    color: #091311;
+    text-align: justify; 
+    font-size: x-large;
+}
+.nombre{
+    background-color: rgb(146, 210, 241); 
+    color: rgb(15, 11, 15);
+}

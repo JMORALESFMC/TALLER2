@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/5038867c23.js" crossorigin="anonymous"></script>
+    <script src="/JS/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/imagenes/logo.png" alt="logo" class="img-logo"> <br>
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar"> <br>
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="nosotros.html">Nosotros</a></li>
+                  <li><a href="productos.html">Productos</a></li>
+                  <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+                            
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                  <label for="inputsm">Ingrese el nombre</label> <br>
+                  <input class="form-control input-sm" id="nombre" type="text">
+                </div>
+                 <div class="form-group">
+                  <label for="inputdefault">Ingrese el correo</label> <br>
+                  <input class="form-control" id="correo" type="email">
+                </div>
+                <div class="form-group">
+                  <label for="inputlg">Ingrese la edad</label> <br>
+                  <input class="form-control input-lg" id="edad" type="number">
+                </div>
+                    <div class="form-group">
+                    <label for="inputlg">Comentarios</label> <br>
+                    <input class="form-control input-lg" id="comentarios" type="text"><br>
+                    <button type="button" class="btn btn-primary" onclick="enviar()">Enviar</button><br><br>  
+
+                  </div>
+                  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@fisiobscentro/video/7165963598211058949" data-video-id="7165963598211058949" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@fisiobscentro" href="https://www.tiktok.com/@fisiobscentro?refer=embed">@fisiobscentro</a> @Stefy Tarco @Mîshü Gåbiilü Wiiguë <a title="saludybienestar" target="_blank" href="https://www.tiktok.com/tag/saludybienestar?refer=embed">#saludybienestar</a> <a title="obstetricia" target="_blank" href="https://www.tiktok.com/tag/obstetricia?refer=embed">#obstetricia</a> <a title="rehabilitacion" target="_blank" href="https://www.tiktok.com/tag/rehabilitacion?refer=embed">#rehabilitacion</a> <a title="fisioterapia" target="_blank" href="https://www.tiktok.com/tag/fisioterapia?refer=embed">#fisioterapia</a> <a title="laboratorioclínico" target="_blank" href="https://www.tiktok.com/tag/laboratoriocl%C3%ADnico?refer=embed">#laboratorioclínico</a> <a title="medicinageneral" target="_blank" href="https://www.tiktok.com/tag/medicinageneral?refer=embed">#medicinageneral</a> <a title="meditiktok" target="_blank" href="https://www.tiktok.com/tag/meditiktok?refer=embed">#meditiktok</a> <a title="mujeresemprendedoras" target="_blank" href="https://www.tiktok.com/tag/mujeresemprendedoras?refer=embed">#mujeresemprendedoras</a> <a title="ginecologiayobstetricia" target="_blank" href="https://www.tiktok.com/tag/ginecologiayobstetricia?refer=embed">#ginecologiayobstetricia</a> <a title="enfermeriatiktok" target="_blank" href="https://www.tiktok.com/tag/enfermeriatiktok?refer=embed">#enfermeriatiktok</a> <a title="mujeresemprendedoras" target="_blank" href="https://www.tiktok.com/tag/mujeresemprendedoras?refer=embed">#mujeresemprendedoras</a> <a title="colposcopia" target="_blank" href="https://www.tiktok.com/tag/colposcopia?refer=embed">#colposcopia</a> <a title="papanicolau" target="_blank" href="https://www.tiktok.com/tag/papanicolau?refer=embed">#papanicolau</a> <a title="saludfemenina" target="_blank" href="https://www.tiktok.com/tag/saludfemenina?refer=embed">#saludfemenina</a> <a title="saludable" target="_blank" href="https://www.tiktok.com/tag/saludable?refer=embed">#saludable</a> <a target="_blank" title="♬ Don&#39;t Start Now - Dua Lipa" href="https://www.tiktok.com/music/Don't-Start-Now-6753131843043756034?refer=embed">♬ Don&#39;t Start Now - Dua Lipa</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                  
+              </form>
+            </div>
+            <div class="col-md-6">            
+            <h5>CENTRO DE ESPECIALIDADES "FISIOBS"</h5><br>
+            <img src="assets/logo.png" alt="logo">
+            <p>Contamos con los mejores equipos y el mejor equipo profesional, para una pronta recuperacion y buena calidad de vida.</p><br>
+            <p>Somos la mejor opcion para tu salud.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249.3618474550754!2d-78.49407605193647!3d-0.21755235543589246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1689010089539!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>            
+        </div>
+        <div>          
+          
+        </div>
+        
+    </main>
+
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+              <h5>REDES SOCIALES FISIOBS</h5>
+                <i class="fa-brands fa-whatsapp fa-flip fa-lg"></i> WHATSAAP (+593)0999882693 <BR>
+                <i class="fa-brands fa-facebook-f fa-bounce fa-lg"></i> FISIOBS <br>
+                <i class="fa-brands fa-tiktok fa-flip fa-lg"></i> FISIOBS<br>
+                
+            </div>
+
+            <div class="col-sm-4">
+              <H5>CONTACTOS</H5>
+              <i class="fa-sharp fa-solid fa-phone-volume fa-shake fa-lg"></i> 0999882693 <br>
+              <i class="fa-sharp fa-light fa-envelope fa-beat fa-lg"></i> fisiobs@hotmail.com <br>
+
+            </div>
+            <div class="col-sm-4"></div>
+            <h5>UBICACIÓN</h5>
+            <i class="fa-sharp fa-solid fa-location-dot fa-lg"></i> 
+                <p>El Dorado calle Solano E 9-04 y Jesus Maria Yepez </p>
+                
+        </div>
+      </footer>
+</body>
+</html>
